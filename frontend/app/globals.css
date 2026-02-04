@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 60, 60, 60; /* Dark gray instead of black */
+  --background-start-rgb: 243, 232, 255; /* pastel-purple-100 */
+  --background-end-rgb: 252, 231, 243; /* pastel-pink-100 */
+  --primary-purple: 243, 232, 255; /* pastel-purple-100 */
+  --secondary-pink: 252, 231, 243; /* pastel-pink-100 */
+  --accent-purple: 233, 213, 255; /* pastel-purple-200 */
+  --accent-pink: 251, 207, 232; /* pastel-pink-200 */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 128, 0, 128; /* darker purple */
+    --background-end-rgb: 255, 192, 203; /* lighter pink */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}

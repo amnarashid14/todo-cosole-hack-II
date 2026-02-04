@@ -1,0 +1,9 @@
+ctx7sk-fed1f02f-b731-49df-838c-c224cecba001
+claude mcp add --transport http context7 https://mcp.context7.com/mcp \
+  --header "CONTEXT7_API_KEY: ctx7sk-fed1f02f-b731-49df-838c-c224cecba001"
+
+claude mcp add context7 -- npx -y @upstash/context7-mcp --api-key ctx7sk-fed1f02f-b731-49df-838c-c224cecba001
+postgresql://neondb_owner:npg_oO7TfMnat6JY@ep-blue-voice-a1v3j0ap-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+
+
+?sslmode=require&channel_binding=require

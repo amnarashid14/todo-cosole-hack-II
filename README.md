@@ -66,4 +66,4 @@ The application follows a three-layer architecture:
 - In-memory storage only (data is lost when the application exits)
 - Task titles are limited to 80 characters
 - Task descriptions are limited to 500 characters
-- Task IDs reset on application restart
+- Task IDs reset on application restart"# todo-full-stack" 
