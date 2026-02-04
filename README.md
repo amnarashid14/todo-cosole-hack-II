@@ -67,3 +67,4 @@ The application follows a three-layer architecture:
 - Task titles are limited to 80 characters
 - Task descriptions are limited to 500 characters
 - Task IDs reset on application restart"# todo-full-stack" 
+"# todo-full-stack" 
